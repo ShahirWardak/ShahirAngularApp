@@ -1,0 +1,144 @@
+// shortened hexcode for white
+$white: #fff;
+
+// shortened hexcode for black
+$black: #000;
+
+// primary blue
+$lochmara: #007ac9;
+
+// primary blue
+$lochmara-dark: #074a76;
+
+// primary blue
+$lochmara-light: #cce4f4;
+
+// primary blue with 50% transparency
+$lochamara-transparent: rgba(0, 122, 201, 0.5);
+
+// alert yellow
+$supernova: #fecb00;
+
+// very dark gun metal grey
+$ship-grey: #414042;
+
+// pastel grey
+$westar: #e0ded8;
+
+// pastel grey
+$cararra: #eae8e4;
+
+// very light pastel grey
+$desert-storm: #f4f4f2;
+
+// purple
+$finn: #5a245a;
+
+// dirty green color
+$buddha-gold: #6c7b1c;
+
+// dark grey color used for body copy
+$scarpa-flow: #4f4c54;
+
+// muddy brown grey color
+$americano: #82786f;
+
+// soft brown grey color
+$timberwolf: #d6d3cc;
+
+// light grey
+$alto: #dddddd;
+
+// another light grey
+$mercury: #e9e9e9;
+
+// mid grey
+$suva-gray: #858384;
+
+// pinky grey
+$pampas: #faf9f8;
+
+// sandy grey
+$cloud: #ccc9c0;
+
+// grey with a very light yellow tint
+$timberwolf: #d5d2cb;
+
+// barely grey
+$wild-sand: #e5e5e0;
+
+// barely grey - basically white
+$alabaster: #fcfcfc;
+
+// error pink
+$razzmatazz: #e40066;
+
+// error light yellow
+$milk-punch: #fff7d6;
+
+// Curious Blue
+$curious-blue: #3192D1;
+
+// Timberwolf
+$timberwolf: #D5D2CA;
+
+// orange
+$flamingo: #f26d28;
+
+$mid-gray: #666569;
+
+// bright green
+$brightgreen: #8aeb68;
+
+// carot orange
+$carrot-orange: #F09127;
+
+// white with yellow tint
+$bleach-white: #fef4d5;
+
+// dark yellow
+$corn-harvest: #8a670a;
+
+// peach
+$azalea: #f9ccd3;
+
+// red
+$cabaret: #d84d5e;
+
+// green
+$greenleaf: #407601;
+
+// Box Sizing Grid
+// --------------------------------------------------------------------------
+$column-width: 82px;
+$gutter-width: 20px;
+$container-width: 1184px;
+
+$nav-mobile-width: 290px;
+
+$mobile-module-width: 240px;
+
+// Breakpoints
+// --------------------------------------------------------------------------
+
+$container-width-breakpoint: $container-width;
+$tablet-breakpoint: 1024px;
+$mobile-breakpoint: 768px;
+$mobile-small-breakpoint: 560px;
+
+$header-tablet-breakpoint: 991px;
+$header-mobile-breakpoint: 767px;
+
+/// breakpoints for the tab/menu mixin
+$tabs-width-breakpoint: 1195px;
+$tabs-width-narrow-breakpoint: 975px;
+
+// variables for the membership details block
+$global-transition-speed: 0.5s;
+
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+
+
