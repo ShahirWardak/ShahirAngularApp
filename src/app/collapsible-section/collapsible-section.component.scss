@@ -1,0 +1,65 @@
+input[type='checkbox'] {
+    display: none;
+}
+
+.label-toggle {
+    display: block;
+
+    font-size: 1.2rem;
+    text-align: center;
+
+    padding: 1rem;
+
+    color: white;
+    background: #10363e;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease-out;
+
+    .green {
+        color: #76d23f;
+    }
+}
+
+.collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+
+    transition: max-height .25s ease-in-out;
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.collapsible-content .content-inner {
+    color: white;
+    background: #144650;
+    padding: .5rem 1rem;
+}
+
+.toggle:checked + .label-toggle + .collapsible-content {
+    max-height: 100vh;
+}
+
+.green-info {
+    background-color: #76d23f;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    p {
+        text-align: center;
+        font-weight: bold;
+        padding: 1.5rem;
+    }
+
+    .b-right {
+        border-right: 2px solid white;
+    }
+    .b-left {
+        border-left: 2px solid white;
+    }
+}

@@ -1,0 +1,19 @@
+<div class="wrap-collabsible">
+    <input id="collapsible" class="toggle" type="checkbox">
+    <label for="collapsible" class="label-toggle"><span class="green">Open</span> today</label>
+    <div class="collapsible-content">
+        <div class="content-inner">
+            <ul>
+                <li *ngFor="let info of openingTimes; let last = last">
+                    <p><strong>{{info.location}}</strong> {{info.times}}</p>
+                    <hr *ngIf="!last">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="green-info">
+    <p class="b-right">What's here?</p>
+    <p>Entrance charges</p>
+    <p class="b-left">Getting here</p>
+</div>
