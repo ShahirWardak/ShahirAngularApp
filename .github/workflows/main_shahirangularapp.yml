@@ -52,4 +52,4 @@ jobs:
           app-name: 'ShahirAngularApp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_928075352D4743168C85CE313C76C43E }}
-          package: .
+          package: ./my-angular-app
