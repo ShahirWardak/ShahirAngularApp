@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeadingBannerComponent } from './heading-banner/heading-banner.component';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { CollapsibleSectionComponent } from './collapsible-section/collapsible-section.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,13 @@ import { CollapsibleSectionComponent } from './collapsible-section/collapsible-s
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the app is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
